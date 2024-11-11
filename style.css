@@ -100,6 +100,36 @@ gap: 1vw;
 #page1{
     background-color:#151515;
 }
+#page1 #nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.3vw 5.5vw;
+}
+#nav-part2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3vw;
+}
+#nav-part2 h4{
+font-weight: 0.8vw;
+font-weight: 500;
+}
+.hero{
+    background-color: rebeccapurple;
+    width: 70%;
+    margin-left: 30%;
+}
+.hero:nth-child(2){
+    margin-top: 19vh;
+}
+.hero h1{
+font-size: 8vw;
+text-transform: uppercase;
+line-height: 8vw;
+}
+
 #page2{ 
     background-color: #556043;
 }
